@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [swancode]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtendReportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="swancode(failed)">
+    <classes>
+      <class name="jenkinscode.Editcampagin">
+        <methods>
+          <include name="editcampagin"/>
+        </methods>
+      </class> <!-- jenkinscode.Editcampagin -->
+      <class name="jenkinscode.Loyatlyrewardweekdaybonus">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="state"/>
+        </methods>
+      </class> <!-- jenkinscode.Loyatlyrewardweekdaybonus -->
+      <class name="jenkinscode.CustomerProfile">
+        <methods>
+          <include name="setUp"/>
+          <include name="customerregistertation"/>
+        </methods>
+      </class> <!-- jenkinscode.CustomerProfile -->
+      <class name="jenkinscode.createloyaltstorebonus">
+        <methods>
+          <include name="saverewardn"/>
+          <include name="openBrowser"/>
+          <include name="transstoreid"/>
+        </methods>
+      </class> <!-- jenkinscode.createloyaltstorebonus -->
+      <class name="jenkinscode.cloningcampaign">
+        <methods>
+          <include name="editcampagin"/>
+        </methods>
+      </class> <!-- jenkinscode.cloningcampaign -->
+      <class name="jenkinscode.CreateRewardTransactionvalueusingcampign">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="trans"/>
+        </methods>
+      </class> <!-- jenkinscode.CreateRewardTransactionvalueusingcampign -->
+      <class name="jenkinscode.Createcampaign">
+        <methods>
+          <include name="createcampign"/>
+        </methods>
+      </class> <!-- jenkinscode.Createcampaign -->
+      <class name="jenkinscode.createrewardweekdayusingcampign">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="state"/>
+        </methods>
+      </class> <!-- jenkinscode.createrewardweekdayusingcampign -->
+      <class name="jenkinscode.loyaltyrewardtranscationsbonusmultiple">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="trans"/>
+        </methods>
+      </class> <!-- jenkinscode.loyaltyrewardtranscationsbonusmultiple -->
+      <class name="jenkinscode.Deletecampaign">
+        <methods>
+          <include name="Deletingit"/>
+        </methods>
+      </class> <!-- jenkinscode.Deletecampaign -->
+      <class name="jenkinscode.Searchcustomerprofile">
+        <methods>
+          <include name="loginsearchcustomerprofile"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- jenkinscode.Searchcustomerprofile -->
+      <class name="jenkinscode.loyaltyrewardcampignstore">
+        <methods>
+          <include name="saverewardn"/>
+          <include name="openBrowser"/>
+          <include name="transstoreid"/>
+        </methods>
+      </class> <!-- jenkinscode.loyaltyrewardcampignstore -->
+    </classes>
+  </test> <!-- swancode(failed) -->
+</suite> <!-- Failed suite [swancode] -->

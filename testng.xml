@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="ExtendReportlistener.ExtentReporterNG"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+    
+      <class name="jenkinscode.CreateLoyaltyRewardTransactionsBonusMultiple"/>
+      <class name="jenkinscode.createLoyatlyrewardweekdaybonus"/>
+      <class name="jenkinscode.createloyaltyrewardsegmentcampaign"/>
+      <class name="jenkinscode.createloyaltyrewardtimeofdaybonus"/>
+      <class name="jenkinscode.createloyaltyrewardcampignstore"/>
+      <class name="jenkinscode.createloyaltstorebonus"/>
+      <class name="jenkinscode.jouneryworkflow"/>
+      <class name="jenkinscode.CreateRewardWeekdayUsingCampaign"/>
+      <class name="jenkinscode.createloyaltyrewardtimeofdaycampaign"/>
+      <class name="jenkinscode.CreateRewardTransactionvalueusingcampign"/>
+      <class name="jenkinscode.createloyaltyrewardsegmentbonus"/>
+      <class name="jenkinscode.Createcampaign"/>   
+       <class name="jenkinscode.Editcampagin"/>
+        <class name="jenkinscode.Deletecampaign"/> 
+         <class name="jenkinscode.cloningcampaign"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
